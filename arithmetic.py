@@ -18,7 +18,7 @@ def validate_nums(num1, num2):
 
 def add(num1, num2):
     """Returns the sum of the two input integers."""
-    
+
     if validate_nums(num1, num2):
         return num1 + num2
     else:
@@ -72,7 +72,7 @@ def cube(num1):
 
 def power(num1, num2):
     """Raises the first integer to the power of the second integer and returns the value."""
-    
+
     if validate_nums(num1, num2):
         return num1 ** num2
     else:
@@ -84,7 +84,5 @@ def mod(num1, num2):
 
     if validate_nums(num1, num2):
         return num1 % num2
-    else: 
+    else:
         return 0
-
-
